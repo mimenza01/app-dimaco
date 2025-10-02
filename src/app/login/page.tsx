@@ -15,7 +15,7 @@ export default function LoginPage() {
           appearance={{ theme: ThemeSupa }}
           providers={[]}
           view="sign_in"              // si quieres magic link, cambia a "magic_link"
-          redirectTo="http://localhost:3000"  // o 3001 si tu server está en 3001
+          redirectTo={`${process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'}`}
         />
       </div>
     </div>
