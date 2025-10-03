@@ -1,13 +1,6 @@
-// src/app/repartos/page.tsx
-import dynamic from "next/dynamic";
+'use client';
 
-const AppDimacoAuth = dynamic(
-  () => import("../../components/AppDimacoAuth").then((m) => m.default), // 👈 dos puntos: ../../
-  {
-    ssr: false,
-    loading: () => <p className="p-6">Cargando app...</p>,
-  }
-);
+import AppDimacoAuth from '../../components/AppDimacoAuth';
 
 export default function RepartosPage() {
   return <AppDimacoAuth />;
