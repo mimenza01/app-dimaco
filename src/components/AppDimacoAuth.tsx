@@ -17,7 +17,7 @@ export default function AppDimacoAuth() {
 
 // === Supabase Client (usa variables públicas de Vercel) ===
 const SUPABASE_URL =
-  process.env.NEXT_PUBLIC_SUPABASE_URL || "https://app-dimaco.vercel.app";
+  process.env.NEXT_PUBLIC_SUPABASE_URL || "https://tpxwhgjlklvssbbiqeov.supabase.co";
 const SUPABASE_ANON_KEY =
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRweHdoZ2psa2x2c3NiYmlxZW92Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk0MjA1MDMsImV4cCI6MjA3NDk5NjUwM30.S1GSOpIegYIkhTom0Ul7s5AoIAyCYjrCx0j";
 
