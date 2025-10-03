@@ -1,8 +1,5 @@
 "use client";
 
-import React, { useEffect, useMemo, useState } from "react";
-// …el resto de imports y TU componente…
-export default function AppDimacoAuth() {
   // …contenido…
 }
 
