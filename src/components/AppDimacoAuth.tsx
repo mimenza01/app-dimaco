@@ -1,7 +1,10 @@
 "use client";
 
 import React, { useEffect, useMemo, useState } from "react";
-import { createClient, SupabaseClient } from "@supabase/supabase-js";
+// …el resto de imports y TU componente…
+export default function AppDimacoAuth() {
+  // …contenido…
+}
 
 /*************************************************
  * App Dimaco – V2 + Supabase (para Next.js)
